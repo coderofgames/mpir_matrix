@@ -1,21 +1,17 @@
-﻿Build started 12/11/2016 16:41:33.
-     1>Project "C:\Users\dave\Documents\Visual Studio 2013\Projects\mpir-2.7.2\build.vc12\mpir-tests\cxx.ops\cxx.ops.vcxproj" on node 2 (Build target(s)).
-     1>PreBuildEvent:
-         ..\check_config x64 Release
-         :VCEnd
-         OK 
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I./Release/ /I"C:\Users\dave\Documents\Visual Studio 2013\Projects\mpir-2.7.2\build.vc12\mpir-tests\cxx.ops\..\lib\x64\Release" /I"C:\Users\dave\Documents\Visual Studio 2013\Projects\mpir-2.7.2\build.vc12\mpir-tests\cxx.ops\..\tests" /Zi /nologo /W1 /WX- /Ox /D _WIN64 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt "..\..\..\tests\cxx\t-ops.cc"
+﻿Build started 12/11/2016 17:08:19.
+     1>Project "C:\Users\dave\Documents\GitHub\mpir_matrix\cxx.ops.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I./Release/ /IC:\Users\dave\Documents\GitHub\mpir_matrix\..\lib\x64\Release /IC:\Users\dave\Documents\GitHub\mpir_matrix\..\tests /Zi /nologo /W1 /WX- /Ox /D _WIN64 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt "mpir_tests\t-ops.cc"
          t-ops.cc
-     1>..\..\..\tests\cxx\t-ops.cc(118): warning C4172: returning address of local variable or temporary
-                 ..\..\..\tests\cxx\t-ops.cc(98) : while compiling class template member function 'matrix<mpf_class> &matrix<mpf_class>::operator *(matrix<mpf_class> &)'
-                 ..\..\..\tests\cxx\t-ops.cc(245) : see reference to function template instantiation 'matrix<mpf_class> &matrix<mpf_class>::operator *(matrix<mpf_class> &)' being compiled
-                 ..\..\..\tests\cxx\t-ops.cc(170) : see reference to class template instantiation 'matrix<mpf_class>' being compiled
+     1>mpir_tests\t-ops.cc(118): warning C4172: returning address of local variable or temporary
+                 mpir_tests\t-ops.cc(98) : while compiling class template member function 'matrix<mpf_class> &matrix<mpf_class>::operator *(matrix<mpf_class> &)'
+                 mpir_tests\t-ops.cc(245) : see reference to function template instantiation 'matrix<mpf_class> &matrix<mpf_class>::operator *(matrix<mpf_class> &)' being compiled
+                 mpir_tests\t-ops.cc(170) : see reference to class template instantiation 'matrix<mpf_class>' being compiled
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dave\Documents\Visual Studio 2013\Projects\mpir-2.7.2\build.vc12\mpir-tests\cxx.ops\x64\Release\cxx.ops.exe" /NOLOGO /LIBPATH:\Release\ "add-test-lib.lib" mpir.lib mpirxx.lib kernel32.lib user32.lib gdi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\dave\Documents\Visual Studio 2013\Projects\mpir-2.7.2\build.vc12\mpir-tests\cxx.ops\x64\Release\cxx.ops.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\dave\Documents\Visual Studio 2013\Projects\mpir-2.7.2\build.vc12\mpir-tests\cxx.ops\x64\Release\cxx.ops.lib" /MACHINE:X64 "x64\Release\t-ops.obj"
-         cxx.ops.vcxproj -> C:\Users\dave\Documents\Visual Studio 2013\Projects\mpir-2.7.2\build.vc12\mpir-tests\cxx.ops\x64\Release\cxx.ops.exe
-     1>Done Building Project "C:\Users\dave\Documents\Visual Studio 2013\Projects\mpir-2.7.2\build.vc12\mpir-tests\cxx.ops\cxx.ops.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dave\Documents\GitHub\mpir_matrix\x64\Release\cxx.ops.exe" /NOLOGO /LIBPATH:\Release\ "add-test-lib.lib" mpir.lib mpirxx.lib kernel32.lib user32.lib gdi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\dave\Documents\GitHub\mpir_matrix\x64\Release\cxx.ops.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\dave\Documents\GitHub\mpir_matrix\x64\Release\cxx.ops.lib" /MACHINE:X64 "x64\Release\t-ops.obj"
+         cxx.ops.vcxproj -> C:\Users\dave\Documents\GitHub\mpir_matrix\x64\Release\cxx.ops.exe
+     1>Done Building Project "C:\Users\dave\Documents\GitHub\mpir_matrix\cxx.ops.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.58
+Time Elapsed 00:00:02.60
