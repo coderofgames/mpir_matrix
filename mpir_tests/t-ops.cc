@@ -91,7 +91,7 @@ public:
 	}
 	int NumCols()
 	{
-		return sizeX;
+		return sizeY;
 	}
 
 	matrix& operator*(matrix &b)
