@@ -4,7 +4,7 @@
 This example is a test component for the matrix project
 for use of libraries with abitrary precision floating point
 numbers. Based on an MPIR test named cxx.ops. If the MPIR test
-works, this should work.
+works, this should work. (works in Release / x64 mode)
 
 http://mpir.org/
 
